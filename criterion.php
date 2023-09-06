@@ -1,7 +1,6 @@
 <?php
 
 
-
 $servername = "localhost";
 $username = "test";
 $password = "test";
@@ -22,6 +21,7 @@ if (mysqli_num_rows($sortByGoldResult) > 0) {
     while ($row = mysqli_fetch_array($sortByGoldResult, MYSQLI_ASSOC)) {
         $allDataArrayBig[] = $row;
     }
+
 
 }
 echo json_encode($allDataArrayBig);
