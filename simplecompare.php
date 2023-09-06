@@ -5,13 +5,12 @@ $country_1 = $_GET['country_1'];
 $country_2 =$_GET['country_2'];
 
 
-$country_1name;
-$country_2name;
 
-$servername = "";
-$username = "";
-$password = "";
-$dbname = "";
+
+$servername = "localhost";
+$username = "test";
+$password = "test";
+$dbname = "coa123cdb";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
